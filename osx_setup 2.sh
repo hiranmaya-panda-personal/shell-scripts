@@ -36,6 +36,7 @@ brew install findutils
 PACKAGES=(
     carthage
     git
+    handbrake
     ios-deploy
     ios-webkit-debug-proxy
     imagemagick
