@@ -79,7 +79,6 @@ CASKS=(
     google-chrome
     google-drive-file-stream
     iterm2
-    java
     lastpass
     shortcuts
     skype
@@ -94,7 +93,7 @@ CASKS=(
 echo "++++++++++++++++++++++++++++++++++++"
 echo "Installing cask apps..."
 echo "++++++++++++++++++++++++++++++++++++"
-brew cask install ${CASKS[@]}
+brew install --cask ${CASKS[@]}
 
 echo "++++++++++++++++++++++++++++++++++++"
 echo "Upgrading pip...."
